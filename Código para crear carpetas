@@ -1,0 +1,16 @@
+mkdir -p "2026/machine learning/tarea 1" \
+         "2026/machine learning/tarea 2" \
+         "2026/machine learning/tarea 3" \
+         "2026/machine learning/tarea 4" \
+         "2026/métodos y herramientas/tarea 1" \
+         "2026/métodos y herramientas/tarea 2" \
+         "2026/métodos y herramientas/tarea 3" \
+         "2026/métodos y herramientas/tarea 4"
+
+cd 2026
+git init
+git remote add origin https://github.com/vicentemunozs-png/2026.git
+git add .
+git commit -m "Estructura inicial del repositorio"
+git branch -M main
+git push -u origin main
